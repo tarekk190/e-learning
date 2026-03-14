@@ -1,0 +1,108 @@
+ body {
+      background: linear-gradient(180deg, #5b178e 0%, #4a176f 45%, #251345 100%);
+      color: white;
+      overflow-x: hidden;
+    }
+
+    .text-main {
+      color: #71c7ff;
+    }
+
+    .text-sub {
+      color: #cbe7ff;
+    }
+
+    .title-shadow {
+      text-shadow: 0 4px 0 rgba(0, 0, 0, 0.08);
+    }
+
+    .start-btn {
+      background: linear-gradient(90deg, #ff9f1a, #ff4fc2);
+      border: 0;
+      color: white;
+      border-radius: 999px;
+      padding: 14px 28px;
+      font-weight: 700;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+      transition: 0.3s;
+    }
+
+    .start-btn:hover {
+      opacity: 0.95;
+      transform: scale(1.05);
+box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+    }
+
+    .spin {
+      animation: spin 4s linear infinite;
+      display: inline-block;
+    }
+
+    .pulse {
+      animation: pulse 1.5s ease-in-out infinite;
+      display: inline-block;
+    }
+
+    @keyframes spin {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.15); }
+    }
+
+    .feature-card {
+      background-color: rgba(28, 26, 72, 0.95);
+      border: 2px solid rgba(60, 202, 255, 0.55);
+      border-radius: 24px;
+      box-shadow: 0 14px 28px rgba(0, 0, 0, 0.15);
+    }
+
+    .guide-box {
+      background: linear-gradient(90deg, rgba(101, 42, 170, 0.95), rgba(69, 47, 150, 0.95));
+      border: 2px solid rgba(170, 111, 255, 0.35);
+      border-radius: 28px;
+    }
+
+    .guide-img {
+      border: 4px solid #20c5ff;
+      border-radius: 24px;
+      overflow: hidden;
+      background: #c9c7ef;
+    }
+
+    .cta-box {
+      background: linear-gradient(90deg, #2467ff 0%, #962dff 50%, #f00082 100%);
+      border-radius: 32px;
+      box-shadow: 0 16px 35px rgba(0, 0, 0, 0.18);
+    }
+
+    .cta-btn {
+      border: 0;
+      background: white;
+      color: #8d25ff;
+      border-radius: 999px;
+      padding: 14px 28px;
+      font-weight: 700;
+    }
+
+    .stat-orange {
+      background: linear-gradient(180deg, #ffb300, #ff9800);
+      border-radius: 18px;
+    }
+
+    .stat-pink {
+      background: linear-gradient(180deg, #b34cff, #ff4fb8);
+      border-radius: 18px;
+    }
+
+    .card-hover{
+transition: 0.3s;
+}
+
+.card-hover:hover{
+transform: translateY(-8px);
+box-shadow: 0 20px 40px rgba(0,0,0,0.25);
+}
